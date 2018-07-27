@@ -125,10 +125,22 @@
 5. Repositories 설정에서 Bundle Store 옵션 선택시 ZIP파일을 UNZIP해서 명령어 사용 가능 
 6. Service 구성 시 모델링에 따른 Parameter 타입 고려 (Global, Service, Deploy?)
 7. Service 추가 시 Service ID는 ZIP파일 name과 동일하다 
+8. Autoscale을 위한 미터링만 제공. 실질적인 미터링 데이터는 저장되지 않음(확인필요사항)
 
 **[추후 추가 확인 사항]**
 
 1. Deploy 시 스크립트에 대한 에러 메세지가 자세히 표시되지 않음(전체 로그 파일로 제공)
+
 2. 로그에 대한 내용 Kibana로 분석 고려
+
 3. NFV 제공 방안에 대한 검토
+
 4. UCSD 사용시 활용 방안 검토
+
+5. Deploy 후 관리 : SSH, 원격 등 사용 방안
+
+   웹UI 제공 서비스의 경우 UI를 통한 서비스 사용 관리 방안
+
+6. 미터링 데이터 수집 방식 및 빌링 방안 확인
+
+7. 외부 모니터링(미터링)이용시 데이터 차이 확인 
